@@ -12,3 +12,6 @@ exports.create = function(req, res) {
     })
 }
 
+exports.viewSingle = function(req, res) {
+    res.render('single-post-screen')
+}
